@@ -1,0 +1,71 @@
+/* Style for the body element */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+  }
+  
+  /* Style for the header element */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Style for the h1 element inside the header */
+  header h1 {
+    margin: 0;
+  }
+  
+  /* Style for the main element */
+  main {
+    margin: 20px;
+  }
+  
+  /* Style for the input element */
+  input {
+    font-size: 16px;
+    padding: 8px;
+  }
+  
+  /* Style for the button element */
+  button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  /* Style for the table element */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  /* Style for the th and td elements inside the table */
+  th, td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  /* Style for the th element inside the table */
+  th {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+
+  }
+  #f{
+    text-align: center;
+  }
+  

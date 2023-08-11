@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Chord Suggester</title>
+  </head>
+  <body>
+    <div style="text-align: center;">
+        <img id="logo" src="1.jpg" alt="Logo">
+
+
+    <h1 style="text-align: center;">Chord Suggester</h1>
+    <p>Please enter a chord name:</p>
+    <input type="text" id="chordInput">
+    <button onclick="suggestMelody()">Suggest Melody</button>
+    <script src="Chord.js"></script>
+    <p>This will let you to make best the Melody with only 4 chords </p>
+    <title>Chords Table</title>
+	<style>
+        
+		table {
+			border-collapse: collapse;
+			width: 100%;
+			margin-bottom: 1rem;
+			background-color: transparent;
+			color: #212529;
+		}
+		th, td {
+			padding: 0.75rem;
+			vertical-align: top;
+			border-top: 1px solid #dee2e6;
+			text-align: center;
+		}
+		th {
+			border-bottom: 2px solid #dee2e6;
+			background-color: #f7f7f9;
+			font-weight: 500;
+		}
+	</style>
+</head>
+<body>
+	<table>
+        <div style="text-align: center;">
+		<thead>
+			<tr>
+				<th>Play one of the chords from the list</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>G</td>
+			</tr>
+			<tr>
+				<td>F</td>
+			</tr>
+			<tr>
+				<td>C</td>
+			</tr>
+			<tr>
+				<td>Dm</td>
+			</tr>
+        </div>
+		</tbody>
+	</table>
+    <head>
+        <link rel="Stylesheet" href="Style.css">
+      </head>
+    </div>
+    <script>
+        function suggestMelody() {
+            const userChord = document.getElementById('userChord').value.toUpperCase();
+            const chord = chords.find(c => c.name === userChord);
+          
+            if (chord) {
+              suggestMelodyForChord(chord);
+            } else {
+              alert(`Chord ${userChord} not found`);
+            }
+          }
+          
+      
+    </script>
+
+  </body>
+  <footer id="f">
+    <p>&copy; 2023 My Music App</p>
+  </footer>
+  
+</html>

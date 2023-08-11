@@ -1,0 +1,14 @@
+{
+  "name": "guitarmodel",
+  "version": "1.0.0",
+  "description": "musicmaker",
+  "main": "Chord.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "guitar"
+  ],
+  "author": "mphammad doustar",
+  "license": "ISC"
+}
